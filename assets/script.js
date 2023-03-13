@@ -32,6 +32,7 @@ submit.addEventListener('click', function(event){
         message.style.color = 'red';
     }
 })
+
 let diceSection = document.getElementById ('dice_game')
 let randomNumber = document.querySelector('.dice')
 randomNumber.addEventListener('click', function(event){
@@ -45,7 +46,7 @@ randomNumber.addEventListener('click', function(event){
         numberMessage.style.color = 'green';
         console.log(myNumber, webNumber);
     } else if (myNumber < webNumber) {
-        numberMessage.innerHTML = ` Hai fatto ${myNumber}, il computer vince con ${webNumber}. Riprova la prossima volta.`;
+        numberMessage.innerHTML = ` Hai fatto ${myNumber}, il computer vince con ${webNumber}. Riprova.`;
         numberMessage.style.color = 'red';
         console.log(myNumber, webNumber);
     } else {
