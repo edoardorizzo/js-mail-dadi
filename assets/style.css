@@ -7,6 +7,23 @@ body{
     text-align: center;
 }
 
-h1{
+div{
     color: white;
+}
+
+h2{
+    margin-top: 4rem;
+}
+
+div{
+    margin: 2rem 0;
+}
+
+.dice{
+    height: 90px;
+    width: 90px;
+}
+
+#dice_game{
+    display: none;
 }
