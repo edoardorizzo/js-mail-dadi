@@ -25,8 +25,10 @@ submit.addEventListener('click', function(event){
     
     if (valid) {
         message.innerHTML = 'Benvenuto!';
+        message.style.color = 'green';
     }   else {
         message.innerHTML = 'Il tuo indirizzo e-mail non risulta valido, riprova.';
+        message.style.color = 'red';
     }
 })
 
